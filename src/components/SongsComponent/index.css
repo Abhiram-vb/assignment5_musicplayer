@@ -1,0 +1,36 @@
+
+.eachSong{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #99E2B4;
+    border-radius: 10px;
+}
+.titleAndSubtitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+    font-weight: 200px;
+    font-size: 25px;
+    color: #40916c;
+}
+.subtitle{
+    margin: 1%;
+}
+.delete{
+    height: 25px;
+    width: 25px;
+}
+.h1Color{
+    color: #0b69ff;
+}
+img{
+    cursor: pointer;
+}
