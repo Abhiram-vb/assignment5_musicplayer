@@ -18,8 +18,10 @@ return(
             <h1 className="title">{title}</h1>
             <p className="subtitle">{subtitle}</p>
         </div>
-        <img src="https://assets.ccbp.in/frontend/react-js/comments-app/delete-img.png" alt="delete" className="delete" onClick={deleteItemFromList}/>
+            <img src="https://assets.ccbp.in/frontend/react-js/comments-app/delete-img.png" alt="delete" className="delete" onClick={deleteItemFromList}/>
+
     </li>
+
 )
 }
 export default SongsComponent

@@ -1,7 +1,10 @@
 .navBar{
     display: flex;
     justify-content: space-around;
-    background-color: #2d6a4f;
+    background-color: #3a0ca3;
     color: #ffffff;
 
+}
+.goldColor{
+    color: #e85d04;
 }

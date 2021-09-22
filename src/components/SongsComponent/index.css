@@ -19,9 +19,10 @@
 .title{
     font-weight: 200px;
     font-size: 25px;
-    color: #40916c;
+    color: #4361ee;
 }
 .subtitle{
+    color: #414833;
     margin: 1%;
 }
 .delete{
@@ -29,7 +30,7 @@
     width: 25px;
 }
 .h1Color{
-    color: #0b69ff;
+    color: #f72585;
 }
 img{
     cursor: pointer;

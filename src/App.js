@@ -1,5 +1,5 @@
 import './App.css';
-import MainEntertainment from  './components/MainEntertainment'
+import MainEntertainment from  './components/MainEntertainment';
 function App() {
   return (
     <div className="App">

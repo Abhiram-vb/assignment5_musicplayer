@@ -2,6 +2,7 @@ import { Component } from "react"
 import NavBarComponent from "../NavBarComponent"
 import SongsComponent from '../SongsComponent'
 import './index.css'
+
 const data = [{id:1,like:3,title:'Com Truise - Flightwave',subtitle:'Reed',media:'',isLiked:false},
 {id:2,like:3,title:'Claude Debussy - Clair de lune',subtitle:'Reed',media:'',isLiked:false},
 {id:3,like:2,title:'Culture Shock - Troglodyte',subtitle:'Doug',media:'',isLiked:false},
@@ -56,8 +57,9 @@ class MainEntertainment extends Component{
     }
 
     render(){
+
         const {data,searchData,newSubtitle,newTitle,para} = this.state
-        const newData = data.filter(eachData=>eachData.title.toLowerCase().includes(searchData.toLowerCase()))
+        const newData = data.filter(eachData=>eachData.title.toLowerCase().includes(searchData.toLowerCase().trim()))
         return(
             <>
             <NavBarComponent/>
@@ -77,7 +79,9 @@ class MainEntertainment extends Component{
                     <button type="submit" onClick={this.addNewSong}>Add song</button>
 
                 </form>
-            </div>          
+            </div>       
+            
+   
             </>
         )
     }
