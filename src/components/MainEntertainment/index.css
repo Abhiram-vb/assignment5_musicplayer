@@ -1,7 +1,9 @@
 *{
+    font-size: 1rem;
     font-family: 'Roboto';
 }
 .mainContainer{
+
     /* width: 100vw; */
     display: flex;
     flex-direction: column;
@@ -31,6 +33,7 @@
     color:#081c15;
 }
 .songs{
+    
     display: flex;
     flex-direction: column;
     width: 80vw;
@@ -45,4 +48,8 @@
 }
 .alert{
     color:red;
+}
+form{
+    display: flex;
+    flex-direction: column;
 }
