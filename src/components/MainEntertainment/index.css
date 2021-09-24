@@ -12,18 +12,12 @@
     background-color: #e5e5e5;
     padding-bottom: 30px;
 }
-
 .search{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 80vw;
-    margin-top: 20px;
-    border: 1px solid #a3aca7;
-    border-radius: 8px;
-    box-shadow: 5px 5px #a9aaa9;
-    margin-bottom: 15px;
 }
 .searchInput{
     width: 80vw;
@@ -31,9 +25,13 @@
     font-size: 18px;
     font-weight: bold;
     color:#081c15;
+    margin-top: 20px;
+    border: 1px solid #a3aca7;
+    border-radius: 8px;
+    box-shadow: 5px 5px #a9aaa9;
+    margin-bottom: 15px;
 }
 .songs{
-    
     display: flex;
     flex-direction: column;
     width: 80vw;
@@ -52,4 +50,31 @@
 form{
     display: flex;
     flex-direction: column;
+}
+.addButton{
+    background-color: #a2d2ff;
+    border: none;
+    box-shadow: 1px 1px #fefae0;
+    cursor: pointer;
+    font-weight: bold;
+    padding:5px;
+    border-radius: 8px;
+}
+.formLabel{
+    color: #3d405b;
+    font-weight: bold;
+}
+form{
+    background-color: #dfe7fd;
+    margin: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+.addSongButton{
+    background-color: #70e000;
+    /* width: fit-content; */
+    padding: 5px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
 }

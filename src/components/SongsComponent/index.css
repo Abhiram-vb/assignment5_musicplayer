@@ -22,13 +22,16 @@
     font-weight: 200px;
     font-size: 1rem;
     color: #4361ee;
-    max-width: 100px;
+    max-width: 200px;
     min-width: 200px;
 }
 .subtitle{
     color: #414833;
     margin: 1%;
     font-size: 1rem;
+    min-width: 200px;
+    max-width: 200px;
+    flex-wrap: wrap;
 }
 .delete{
     height: 1.5rem;
@@ -41,8 +44,18 @@ img{
     cursor: pointer;
 }
 @media (max-width:768px){
+    .eachSong{
+        overflow-x: scroll;
+    }
     .title{
+        min-width: 50px;
+        max-width: 50px;
+        flex-wrap: wrap;
+    }
+    .subtitle{
+        flex-wrap: wrap;
+    }
+    audio{
         min-width: 100px;
-        max-width: 100px;
     }
 }
